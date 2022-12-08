@@ -1,8 +1,10 @@
-.container {
+* {
   box-sizing: border-box;
+}
+
+.container {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .row {
@@ -10,15 +12,15 @@
 }
 
 .column-one-third {
-  width: calc(100% / 3);
+  flex-basis: calc(100% / 3);
 }
 
 .one-fourth-column {
-  width: calc(100% / 4);
+  flex-basis: calc(100% / 4);
 }
 
 .two-thirds-column {
-  width: calc(200% / 3);
+  flex-basis: calc(200% / 3);
 }
 
 .one-fourth-column img {
