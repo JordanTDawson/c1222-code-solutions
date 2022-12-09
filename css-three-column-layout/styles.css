@@ -20,7 +20,7 @@ body {
 
 .column-third {
   flex-basis: calc(100% / 3);
-  padding: 10px;
+  padding: 0 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
