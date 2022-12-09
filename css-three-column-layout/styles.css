@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(30 138 210);
+  font-family: Lato, serif;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  text-align: center;
+  flex-basis: 100%;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+}
+
+.text-align {
+  text-align: center;
+}
