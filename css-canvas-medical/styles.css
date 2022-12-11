@@ -1,32 +1,60 @@
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1920px;
 }
 
 .row {
   display: flex;
 }
 
+button {
+  color: white;
+  background-color: darkblue;
+  border-radius: 5px;
+  padding: 10px 35px;
+}
+
 p {
   font-family: Avenir, serif;
 }
 
-.half-column {
-  width: 50%;
-  text-align: left;
+.column-full {
+  flex-basis: 100%;
 }
 
-.half-col {
-  padding: 20px 70px;
-  background-color: grey;
+div.column-full > p {
+  padding: 0 300px;
+}
+
+.half-column {
+  width: 100%;
 }
 
 footer {
-  text-align: left;
   flex-basis: 100%;
   background-color: whitesmoke;
   padding: 20px 70px;
   color: #747474;
+}
+
+.padding-left {
+  padding: 20px 0 20px 70px;
+}
+
+.padding-right {
+  padding: 20px 70px 20px 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .footer-margin {
@@ -39,4 +67,20 @@ footer {
 
 .text-white {
   color: white;
+}
+
+.text-grey {
+  color: #747474;
+}
+
+.background-grey {
+  background-color: grey;
+}
+
+.background-smoke {
+  background-color: whitesmoke;
+}
+
+.hero-image {
+  width: 50%;
 }
