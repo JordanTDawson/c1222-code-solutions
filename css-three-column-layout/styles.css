@@ -14,14 +14,14 @@ body {
 }
 
 .column-full {
-  text-align: center;
   flex-basis: 100%;
 }
 
 .column-third {
   flex-basis: calc(100% / 3);
-  padding: 0 10px;
-  text-align: center;
+}
+
+.column-third-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +29,14 @@ body {
 
 .font-size {
   font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.column-third-padding {
+  padding: 0 10px;
 }
 
 .circle {
