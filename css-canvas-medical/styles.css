@@ -7,11 +7,28 @@
   display: flex;
 }
 
-button {
+.contact-us-button {
   color: white;
-  background-color: darkblue;
+  background-color: #2a4464;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 10px;
+}
+
+.button-get-started {
+  color: white;
+  background-color: #2a4464;
   border-radius: 5px;
   padding: 10px 35px;
+}
+
+.header-line {
+  border-bottom: 1px solid lightgrey;
+}
+
+h1,
+h2 {
+  font-family: "Tiempos Headline", serif;
 }
 
 p {
@@ -22,12 +39,16 @@ p {
   flex-basis: 100%;
 }
 
-div.column-full > p {
+div.column-full-2 > p {
   padding: 0 300px;
 }
 
 .half-column {
-  width: 100%;
+  width: 50%;
+}
+
+img {
+  width: 22%;
 }
 
 footer {
@@ -37,12 +58,37 @@ footer {
   color: #747474;
 }
 
+.bg-image {
+  background-size: 100%;
+  padding: 17em;
+  margin: 50px;
+  background-color: whitesmoke;
+  background-image: linear-gradient(to bottom, rgb(0 0 1 / 40%), rgb(0 0 0 / 40%)), url("images/hero.jpg");
+  background-repeat: no-repeat;
+}
+
+.bg-image-text {
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  width: 35%;
+}
+
 .padding-left {
   padding: 20px 0 20px 70px;
 }
 
 .padding-right {
-  padding: 20px 70px 20px 0;
+  padding: 50px 70px 20px 0;
+}
+
+.clinicians-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
 }
 
 .text-left {
@@ -57,8 +103,16 @@ footer {
   text-align: right;
 }
 
-.footer-margin {
-  margin: 0 30px;
+.text-margin {
+  margin: 0 25px;
+}
+
+.logo-margin {
+  margin: 20px 0 20px 70px;
+}
+
+.product-margin {
+  margin-left: 125px;
 }
 
 .wrap {
@@ -74,13 +128,33 @@ footer {
 }
 
 .background-grey {
-  background-color: grey;
+  background-color: #525351;
 }
 
 .background-smoke {
   background-color: whitesmoke;
 }
 
-.hero-image {
-  width: 50%;
+.clinicians-line {
+  line-height: 40px;
+}
+
+.bg-image-line {
+  line-height: 25px;
+}
+
+.bottom-line {
+  line-height: 50%;
+}
+
+.canvas-address {
+  padding: 100px 0 100px 70px;
+}
+
+.company-product-padding {
+  padding: 80px 0 100px;
+}
+
+.white-canvas-padding {
+  padding-bottom: 30px;
 }
