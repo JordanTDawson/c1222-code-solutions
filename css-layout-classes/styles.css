@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.one-fourth-column {
+  flex-basis: calc(100% / 4);
+}
+
+.two-thirds-column {
+  flex-basis: calc(200% / 3);
+}
+
+.one-fourth-column img {
+  width: 100%;
+}
+
+.column-one-third img,
+.column-one-third p,
+.column-one-third h2 {
+  width: 100%;
+}
+
+.two-thirds-column p,
+.two-thirds-column h2 {
+  width: 100%;
+}
