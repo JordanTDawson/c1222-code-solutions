@@ -39,23 +39,12 @@ p {
   flex-basis: 100%;
 }
 
-div.column-full-2 > p {
-  padding: 0 300px;
-}
-
-.half-column {
+.column-half {
   width: 50%;
 }
 
 img {
   width: 22%;
-}
-
-footer {
-  flex-basis: 100%;
-  background-color: whitesmoke;
-  padding: 20px 70px;
-  color: #747474;
 }
 
 .bg-image {
@@ -157,4 +146,8 @@ footer {
 
 .white-canvas-padding {
   padding-bottom: 30px;
+}
+
+.bottom-padding {
+  padding: 20px 70px;
 }
