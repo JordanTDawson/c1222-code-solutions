@@ -1,7 +1,7 @@
 .container {
   font-family: Karla, serif;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 700px;
 }
 
 .row {
@@ -9,9 +9,7 @@
 }
 
 .column-full {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 700px;
+  flex-basis: 100;
 }
 
 div > p {
@@ -29,12 +27,15 @@ div > h1 {
   letter-spacing: 4px;
 }
 
-.half-column {
-  width: 50%;
-  padding: 20px 40px 20px 20px;
+.column-half {
+  flex-basis: calc(100% / 2);
 }
 
 .col-two-thirds {
+  flex-basis: calc(100% / (2 / 3));
+}
+
+.col-two-thirds-padding {
   padding-top: 20px;
 }
 
@@ -55,4 +56,13 @@ h3 {
   color: #dd7c79;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.half-column-padding {
+  padding: 10px 40px 10px 10px;
 }
