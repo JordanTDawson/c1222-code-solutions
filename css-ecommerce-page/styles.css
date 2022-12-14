@@ -44,11 +44,18 @@ p span {
 }
 
 .text-divider {
-  margin-left: 4px;
   padding-left: 4px;
-  border-left: 2px solid lightgrey;
 }
 
-.line-height {
-  line-height: 5px;
+.margin-zero {
+  margin: 0;
+}
+
+.text-line {
+  border-right: 2px solid lightgrey;
+  padding-right: 4px;
+}
+
+.column-padding {
+  padding: 10px;
 }
