@@ -63,16 +63,14 @@ var orderHistory = [
       orderNumber: '113-2883177-2648248',
       delivered: 'Jul 5, 2020'
     },
-    firstItem: [
+    itemDetails: [
       {
         type: 'hardware',
         itemImage: 'Gamecube Controller',
         name: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
         finalReturnDate: 'Aug 4, 2020',
         itemPrice: '$94.95'
-      }
-    ],
-    secondItem: [
+      },
       {
         type: 'book',
         itemImage: 'SQL Book',
