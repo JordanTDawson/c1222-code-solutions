@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vh;
+  height: 90vh;
+  display: flex;
+  font-family: sans, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  color: greenyellow;
+  border-bottom: greenyellow;
+}
+
+.wrong {
+  color: red;
+  border-bottom: greenyellow;
+}
