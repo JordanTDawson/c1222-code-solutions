@@ -32,7 +32,7 @@ tabContainer.addEventListener('click', function (event) {
   for (var viewIndex = 0; viewIndex < views.length; viewIndex++) {
     var element = views[viewIndex];
     if (element.getAttribute('data-view') === viewName) {
-      element.className = 'data-view';
+      element.className = 'view';
     } else {
       element.className = 'hidden';
     }
