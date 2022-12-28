@@ -58,38 +58,37 @@ var pokedex = [
 ];
 
 function renderPokemon(pokemon) {
-  for (var i = 0; i < pokemon.length; i++) {
-    var currentPokemon = pokemon[i];
-    var columnThird = document.createElement('div');
-    columnThird.setAttribute('class', 'column-third');
+  var columnThird = document.createElement('div');
+  columnThird.setAttribute('class', 'column-third');
 
-    var pokemonCard = document.createElement('div');
-    pokemonCard.setAttribute('class', 'pokemon-card');
-    columnThird.appendChild(pokemonCard);
+  var pokemonCard = document.createElement('div');
+  pokemonCard.setAttribute('class', 'pokemon-card');
+  columnThird.appendChild(pokemonCard);
 
-    var img = document.createElement('img');
-    img.setAttribute('src', currentPokemon.imageUrl);
-    pokemonCard.appendChild(img);
+  var img = document.createElement('img');
+  img.setAttribute('src', pokemon.imageUrl);
+  pokemonCard.appendChild(img);
 
-    var pokemonText = document.createElement('div');
-    pokemonText.setAttribute('class', 'pokemon-card-text');
-    pokemonCard.appendChild(pokemonText);
+  var pokemonText = document.createElement('div');
+  pokemonText.setAttribute('class', 'pokemon-card-text');
+  pokemonCard.appendChild(pokemonText);
 
-    var pokemonName = document.createElement('h2');
-    pokemonName.textContent = currentPokemon.name;
-    pokemonText.appendChild(pokemonName);
+  var pokemonName = document.createElement('h2');
+  pokemonName.textContent = pokemon.name;
+  pokemonText.appendChild(pokemonName);
 
-    var pokedexNumber = document.createElement('h3');
-    pokedexNumber.textContent = '#' + currentPokemon.number;
-    pokemonText.appendChild(pokedexNumber);
+  var pokedexNumber = document.createElement('h3');
+  pokedexNumber.textContent = '#' + pokemon.number;
+  pokemonText.appendChild(pokedexNumber);
 
-    var description = document.createElement('p');
-    description.textContent = currentPokemon.description;
-    pokemonText.appendChild(description);
-
-    var row = document.querySelector('.row');
-    row.appendChild(columnThird);
-  }
-
+  var description = document.createElement('p');
+  description.textContent = pokemon.description;
+  pokemonText.appendChild(description);
+  return columnThird;
 }
-renderPokemon(pokedex);
+
+var row = document.querySelector('.row');
+for (var i = 0; i < pokedex.length; i++) {
+  var rendered = renderPokemon(pokedex[i]);
+  row.appendChild(rendered);
+}
