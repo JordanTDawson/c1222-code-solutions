@@ -7,8 +7,8 @@
    return reverse to function to end code block */
 function reverse(array) {
   var reverse = [];
-  while (array.length) {
-    reverse.push(array.pop());
+  for (var i = array.length - 1; i >= 0; i--) {
+    reverse.push(array[i]);
   }
   return reverse;
 }
