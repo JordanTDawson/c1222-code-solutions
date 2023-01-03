@@ -7,7 +7,7 @@ var student = {
     return this.firstName + ' ' + this.lastName;
   },
   getIntroduction: function () {
-    var introduction = 'Hello, my name is ' + this.firstName + ' ' + this.lastName + ' and I am studying ' + this.subject + '.';
+    var introduction = 'Hello, my name is ' + this.getFullName() + ' and I am studying ' + this.subject + '.';
     return introduction;
   }
 };
