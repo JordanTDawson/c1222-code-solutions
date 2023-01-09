@@ -1,0 +1,30 @@
+body {
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 150px;
+  width: 150px;
+  border-radius: 10rem;
+  border: 0;
+}
+
+.button-off {
+  background-color: #252525;
+}
+
+.body-off {
+  background-color: black;
+}
+
+.button-on {
+  background-color: yellow;
+}
+
+.body-on {
+  background-color: white;
+}
