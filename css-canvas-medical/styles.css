@@ -1,0 +1,153 @@
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.row {
+  display: flex;
+}
+
+.contact-us-button {
+  color: white;
+  background-color: #2a4464;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 10px;
+}
+
+.button-get-started {
+  color: white;
+  background-color: #2a4464;
+  border-radius: 5px;
+  padding: 10px 35px;
+}
+
+.header-line {
+  border-bottom: 1px solid lightgrey;
+}
+
+h1,
+h2 {
+  font-family: "Tiempos Headline", serif;
+}
+
+p {
+  font-family: Avenir, serif;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+img {
+  width: 22%;
+}
+
+.bg-image {
+  background-size: 100%;
+  padding: 17em;
+  margin: 50px;
+  background-color: whitesmoke;
+  background-image: linear-gradient(to bottom, rgb(0 0 1 / 40%), rgb(0 0 0 / 40%)), url("images/hero.jpg");
+  background-repeat: no-repeat;
+}
+
+.bg-image-text {
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  width: 35%;
+}
+
+.padding-left {
+  padding: 20px 0 20px 70px;
+}
+
+.padding-right {
+  padding: 50px 70px 20px 0;
+}
+
+.clinicians-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-margin {
+  margin: 0 25px;
+}
+
+.logo-margin {
+  margin: 20px 0 20px 70px;
+}
+
+.product-margin {
+  margin-left: 125px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-grey {
+  color: #747474;
+}
+
+.background-grey {
+  background-color: #525351;
+}
+
+.background-smoke {
+  background-color: whitesmoke;
+}
+
+.clinicians-line {
+  line-height: 40px;
+}
+
+.bg-image-line {
+  line-height: 25px;
+}
+
+.bottom-line {
+  line-height: 50%;
+}
+
+.canvas-address {
+  padding: 100px 0 100px 70px;
+}
+
+.company-product-padding {
+  padding: 80px 0 100px;
+}
+
+.white-canvas-padding {
+  padding-bottom: 30px;
+}
+
+.bottom-padding {
+  padding: 20px 70px;
+}
